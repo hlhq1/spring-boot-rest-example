@@ -8,12 +8,7 @@ You can use the Tomcat embeded in Spring to run it. And this application is pack
 
 * Clone this repository 
 * You can build the project and run the tests
-* Once successfully built, you can run the service by one of these two methods:
-```
-        java -jar -Dspring.profiles.active=test target/spring-proj-template.war
-or
-        mvn spring-boot:run -Drun.arguments="spring.profiles.active=test"
-```
+* Once successfully built, you can run the service
 * Check the stdout or boot_example.log file to make sure no exceptions are thrown
 
 Once the application runs you should see something like this
